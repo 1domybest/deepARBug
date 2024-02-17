@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6946A8FFE1D8D2BFDD0A3089 /* Pods_DeepAROS14Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E70EA69EEC7F5F55615F9A8 /* Pods_DeepAROS14Test.framework */; };
+		D18F501D2B809DEF004DFD1E /* DeepAROS14TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F501C2B809DEF004DFD1E /* DeepAROS14TestApp.swift */; };
+		D18F501F2B809DEF004DFD1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F501E2B809DEF004DFD1E /* ContentView.swift */; };
+		D18F50212B809DF0004DFD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18F50202B809DF0004DFD1E /* Assets.xcassets */; };
+		D18F50242B809DF0004DFD1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18F50232B809DF0004DFD1E /* Preview Assets.xcassets */; };
+		D18F503D2B809E54004DFD1E /* MakeupLook.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F502B2B809E54004DFD1E /* MakeupLook.deepar */; };
+		D18F503E2B809E54004DFD1E /* Neon_Devil_Horns.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F502C2B809E54004DFD1E /* Neon_Devil_Horns.deepar */; };
+		D18F503F2B809E54004DFD1E /* Pixel_Hearts.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F502D2B809E54004DFD1E /* Pixel_Hearts.deepar */; };
+		D18F50402B809E54004DFD1E /* Fire_Effect.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F502E2B809E54004DFD1E /* Fire_Effect.deepar */; };
+		D18F50412B809E54004DFD1E /* burning_effect.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F502F2B809E54004DFD1E /* burning_effect.deepar */; };
+		D18F50422B809E54004DFD1E /* Emotion_Meter.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50302B809E54004DFD1E /* Emotion_Meter.deepar */; };
+		D18F50432B809E54004DFD1E /* Humanoid.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50312B809E54004DFD1E /* Humanoid.deepar */; };
+		D18F50442B809E54004DFD1E /* Emotions_Exaggerator.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50322B809E54004DFD1E /* Emotions_Exaggerator.deepar */; };
+		D18F50452B809E54004DFD1E /* Split_View_Look.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50332B809E54004DFD1E /* Split_View_Look.deepar */; };
+		D18F50462B809E54004DFD1E /* Hope.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50342B809E54004DFD1E /* Hope.deepar */; };
+		D18F50472B809E54004DFD1E /* Stallone.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50352B809E54004DFD1E /* Stallone.deepar */; };
+		D18F50482B809E54004DFD1E /* Ping_Pong.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50362B809E54004DFD1E /* Ping_Pong.deepar */; };
+		D18F50492B809E54004DFD1E /* Elephant_Trunk.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50372B809E54004DFD1E /* Elephant_Trunk.deepar */; };
+		D18F504A2B809E54004DFD1E /* Vendetta_Mask.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50382B809E54004DFD1E /* Vendetta_Mask.deepar */; };
+		D18F504B2B809E54004DFD1E /* Snail.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F50392B809E54004DFD1E /* Snail.deepar */; };
+		D18F504C2B809E54004DFD1E /* galaxy_background.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F503A2B809E54004DFD1E /* galaxy_background.deepar */; };
+		D18F504D2B809E54004DFD1E /* flower_face.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F503B2B809E54004DFD1E /* flower_face.deepar */; };
+		D18F504E2B809E54004DFD1E /* viking_helmet.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D18F503C2B809E54004DFD1E /* viking_helmet.deepar */; };
+		D18F50502B809E59004DFD1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F504F2B809E59004DFD1E /* ViewController.swift */; };
+		D18F50522B80A21D004DFD1E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F50512B80A21D004DFD1E /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DB0AAE37CD8F0643B280AA5 /* Pods-DeepAROS14Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepAROS14Test.release.xcconfig"; path = "Target Support Files/Pods-DeepAROS14Test/Pods-DeepAROS14Test.release.xcconfig"; sourceTree = "<group>"; };
+		1E70EA69EEC7F5F55615F9A8 /* Pods_DeepAROS14Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepAROS14Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C5BA8B9DCAA95B3CD85678 /* Pods-DeepAROS14Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepAROS14Test.debug.xcconfig"; path = "Target Support Files/Pods-DeepAROS14Test/Pods-DeepAROS14Test.debug.xcconfig"; sourceTree = "<group>"; };
+		D18F50192B809DEF004DFD1E /* DeepAROS14Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepAROS14Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18F501C2B809DEF004DFD1E /* DeepAROS14TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepAROS14TestApp.swift; sourceTree = "<group>"; };
+		D18F501E2B809DEF004DFD1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D18F50202B809DF0004DFD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D18F50232B809DF0004DFD1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D18F502B2B809E54004DFD1E /* MakeupLook.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = MakeupLook.deepar; sourceTree = "<group>"; };
+		D18F502C2B809E54004DFD1E /* Neon_Devil_Horns.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Neon_Devil_Horns.deepar; sourceTree = "<group>"; };
+		D18F502D2B809E54004DFD1E /* Pixel_Hearts.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixel_Hearts.deepar; sourceTree = "<group>"; };
+		D18F502E2B809E54004DFD1E /* Fire_Effect.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fire_Effect.deepar; sourceTree = "<group>"; };
+		D18F502F2B809E54004DFD1E /* burning_effect.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = burning_effect.deepar; sourceTree = "<group>"; };
+		D18F50302B809E54004DFD1E /* Emotion_Meter.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emotion_Meter.deepar; sourceTree = "<group>"; };
+		D18F50312B809E54004DFD1E /* Humanoid.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Humanoid.deepar; sourceTree = "<group>"; };
+		D18F50322B809E54004DFD1E /* Emotions_Exaggerator.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emotions_Exaggerator.deepar; sourceTree = "<group>"; };
+		D18F50332B809E54004DFD1E /* Split_View_Look.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Split_View_Look.deepar; sourceTree = "<group>"; };
+		D18F50342B809E54004DFD1E /* Hope.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hope.deepar; sourceTree = "<group>"; };
+		D18F50352B809E54004DFD1E /* Stallone.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stallone.deepar; sourceTree = "<group>"; };
+		D18F50362B809E54004DFD1E /* Ping_Pong.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ping_Pong.deepar; sourceTree = "<group>"; };
+		D18F50372B809E54004DFD1E /* Elephant_Trunk.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Elephant_Trunk.deepar; sourceTree = "<group>"; };
+		D18F50382B809E54004DFD1E /* Vendetta_Mask.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vendetta_Mask.deepar; sourceTree = "<group>"; };
+		D18F50392B809E54004DFD1E /* Snail.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snail.deepar; sourceTree = "<group>"; };
+		D18F503A2B809E54004DFD1E /* galaxy_background.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = galaxy_background.deepar; sourceTree = "<group>"; };
+		D18F503B2B809E54004DFD1E /* flower_face.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = flower_face.deepar; sourceTree = "<group>"; };
+		D18F503C2B809E54004DFD1E /* viking_helmet.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = viking_helmet.deepar; sourceTree = "<group>"; };
+		D18F504F2B809E59004DFD1E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D18F50512B80A21D004DFD1E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D18F50162B809DEF004DFD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6946A8FFE1D8D2BFDD0A3089 /* Pods_DeepAROS14Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3B9A7B6426317729640D0C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25C5BA8B9DCAA95B3CD85678 /* Pods-DeepAROS14Test.debug.xcconfig */,
+				0DB0AAE37CD8F0643B280AA5 /* Pods-DeepAROS14Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C140356C1EB85AD07F58D5C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E70EA69EEC7F5F55615F9A8 /* Pods_DeepAROS14Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D18F50102B809DEF004DFD1E = {
+			isa = PBXGroup;
+			children = (
+				D18F501B2B809DEF004DFD1E /* DeepAROS14Test */,
+				D18F501A2B809DEF004DFD1E /* Products */,
+				B3B9A7B6426317729640D0C4 /* Pods */,
+				C140356C1EB85AD07F58D5C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D18F501A2B809DEF004DFD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18F50192B809DEF004DFD1E /* DeepAROS14Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18F501B2B809DEF004DFD1E /* DeepAROS14Test */ = {
+			isa = PBXGroup;
+			children = (
+				D18F502A2B809E54004DFD1E /* Effects */,
+				D18F501C2B809DEF004DFD1E /* DeepAROS14TestApp.swift */,
+				D18F501E2B809DEF004DFD1E /* ContentView.swift */,
+				D18F504F2B809E59004DFD1E /* ViewController.swift */,
+				D18F50202B809DF0004DFD1E /* Assets.xcassets */,
+				D18F50222B809DF0004DFD1E /* Preview Content */,
+				D18F50512B80A21D004DFD1E /* ViewModel.swift */,
+			);
+			path = DeepAROS14Test;
+			sourceTree = "<group>";
+		};
+		D18F50222B809DF0004DFD1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D18F50232B809DF0004DFD1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D18F502A2B809E54004DFD1E /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				D18F502B2B809E54004DFD1E /* MakeupLook.deepar */,
+				D18F502C2B809E54004DFD1E /* Neon_Devil_Horns.deepar */,
+				D18F502D2B809E54004DFD1E /* Pixel_Hearts.deepar */,
+				D18F502E2B809E54004DFD1E /* Fire_Effect.deepar */,
+				D18F502F2B809E54004DFD1E /* burning_effect.deepar */,
+				D18F50302B809E54004DFD1E /* Emotion_Meter.deepar */,
+				D18F50312B809E54004DFD1E /* Humanoid.deepar */,
+				D18F50322B809E54004DFD1E /* Emotions_Exaggerator.deepar */,
+				D18F50332B809E54004DFD1E /* Split_View_Look.deepar */,
+				D18F50342B809E54004DFD1E /* Hope.deepar */,
+				D18F50352B809E54004DFD1E /* Stallone.deepar */,
+				D18F50362B809E54004DFD1E /* Ping_Pong.deepar */,
+				D18F50372B809E54004DFD1E /* Elephant_Trunk.deepar */,
+				D18F50382B809E54004DFD1E /* Vendetta_Mask.deepar */,
+				D18F50392B809E54004DFD1E /* Snail.deepar */,
+				D18F503A2B809E54004DFD1E /* galaxy_background.deepar */,
+				D18F503B2B809E54004DFD1E /* flower_face.deepar */,
+				D18F503C2B809E54004DFD1E /* viking_helmet.deepar */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18F50182B809DEF004DFD1E /* DeepAROS14Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18F50272B809DF0004DFD1E /* Build configuration list for PBXNativeTarget "DeepAROS14Test" */;
+			buildPhases = (
+				1C1BE86D8D318D74D198723A /* [CP] Check Pods Manifest.lock */,
+				D18F50152B809DEF004DFD1E /* Sources */,
+				D18F50162B809DEF004DFD1E /* Frameworks */,
+				D18F50172B809DEF004DFD1E /* Resources */,
+				CE435EA153AA3CDF2C98EC2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepAROS14Test;
+			productName = DeepAROS14Test;
+			productReference = D18F50192B809DEF004DFD1E /* DeepAROS14Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18F50112B809DEF004DFD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D18F50182B809DEF004DFD1E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D18F50142B809DEF004DFD1E /* Build configuration list for PBXProject "DeepAROS14Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D18F50102B809DEF004DFD1E;
+			productRefGroup = D18F501A2B809DEF004DFD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18F50182B809DEF004DFD1E /* DeepAROS14Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D18F50172B809DEF004DFD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18F50452B809E54004DFD1E /* Split_View_Look.deepar in Resources */,
+				D18F504E2B809E54004DFD1E /* viking_helmet.deepar in Resources */,
+				D18F50442B809E54004DFD1E /* Emotions_Exaggerator.deepar in Resources */,
+				D18F504C2B809E54004DFD1E /* galaxy_background.deepar in Resources */,
+				D18F503D2B809E54004DFD1E /* MakeupLook.deepar in Resources */,
+				D18F50412B809E54004DFD1E /* burning_effect.deepar in Resources */,
+				D18F50482B809E54004DFD1E /* Ping_Pong.deepar in Resources */,
+				D18F50422B809E54004DFD1E /* Emotion_Meter.deepar in Resources */,
+				D18F50242B809DF0004DFD1E /* Preview Assets.xcassets in Resources */,
+				D18F50492B809E54004DFD1E /* Elephant_Trunk.deepar in Resources */,
+				D18F50462B809E54004DFD1E /* Hope.deepar in Resources */,
+				D18F504A2B809E54004DFD1E /* Vendetta_Mask.deepar in Resources */,
+				D18F503E2B809E54004DFD1E /* Neon_Devil_Horns.deepar in Resources */,
+				D18F50472B809E54004DFD1E /* Stallone.deepar in Resources */,
+				D18F503F2B809E54004DFD1E /* Pixel_Hearts.deepar in Resources */,
+				D18F50212B809DF0004DFD1E /* Assets.xcassets in Resources */,
+				D18F504B2B809E54004DFD1E /* Snail.deepar in Resources */,
+				D18F50402B809E54004DFD1E /* Fire_Effect.deepar in Resources */,
+				D18F504D2B809E54004DFD1E /* flower_face.deepar in Resources */,
+				D18F50432B809E54004DFD1E /* Humanoid.deepar in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C1BE86D8D318D74D198723A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepAROS14Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE435EA153AA3CDF2C98EC2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepAROS14Test/Pods-DeepAROS14Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepAROS14Test/Pods-DeepAROS14Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepAROS14Test/Pods-DeepAROS14Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D18F50152B809DEF004DFD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18F50502B809E59004DFD1E /* ViewController.swift in Sources */,
+				D18F501F2B809DEF004DFD1E /* ContentView.swift in Sources */,
+				D18F50522B80A21D004DFD1E /* ViewModel.swift in Sources */,
+				D18F501D2B809DEF004DFD1E /* DeepAROS14TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D18F50252B809DF0004DFD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D18F50262B809DF0004DFD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D18F50282B809DF0004DFD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C5BA8B9DCAA95B3CD85678 /* Pods-DeepAROS14Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepAROS14Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SCMS5NHSF;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DeepAROS14Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D18F50292B809DF0004DFD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB0AAE37CD8F0643B280AA5 /* Pods-DeepAROS14Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepAROS14Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SCMS5NHSF;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DeepAROS14Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D18F50142B809DEF004DFD1E /* Build configuration list for PBXProject "DeepAROS14Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18F50252B809DF0004DFD1E /* Debug */,
+				D18F50262B809DF0004DFD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18F50272B809DF0004DFD1E /* Build configuration list for PBXNativeTarget "DeepAROS14Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18F50282B809DF0004DFD1E /* Debug */,
+				D18F50292B809DF0004DFD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D18F50112B809DEF004DFD1E /* Project object */;
+}
